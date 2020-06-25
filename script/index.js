@@ -1,5 +1,4 @@
 const DATASET_URL="https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/GDP-data.json";
-console.log(d3);
 d3.json(DATASET_URL).then(data=>{
   const w=1000;
   const h=500;
